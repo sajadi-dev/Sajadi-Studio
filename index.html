@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- ═══ Primary SEO ═══ -->
+    <title>Sajadi Studio — Premium Freelance Web Developer | Restaurants & Cafes</title>
+    <meta name="description"
+        content="Premium freelance web developer specializing in restaurant websites, cafe websites, product showcases, and WhatsApp ordering systems. Fast delivery, pixel-perfect design. طراحی حرفه‌ای سایت برای رستوران‌ها، کافه‌ها و کسب‌وکارها. متخصص در ساخت وب‌سایت‌های مدرن، ویترین محصولات و سیستم سفارش‌گیری واتساپی با تحویل سریع و طراحی کاملاً واکنش‌گرا." />
+    <meta name="keywords" content="freelance web developer, restaurant website, cafe website, WhatsApp ordering, product showcase website, web design, HTML CSS JavaScript, Mahdi Sajadi, طراحی سایت,
+طراحی وب سایت,
+طراحی سایت رستوران,
+طراحی سایت کافه,
+طراحی سایت فروشگاهی,
+برنامه نویس فرانت اند,
+طراح وب,
+سفارش سایت,
+ساخت سایت,
+طراحی سایت حرفه ای,
+مهدی سجادی" />
+    <meta name="author" content="Sajadi Studio" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#080810" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="canonical" href="https://SajadiStudio.dev/" />
+
+    <!-- ═══ Open Graph / Facebook ═══ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://SajadiStudio.dev/" />
+    <meta property="og:title" content="Sajadi Studio — Premium Freelance Web Developer" />
+    <meta property="og:description"
+        content="Premium web experiences for restaurants, cafes, and businesses. Fast delivery, beautiful design, real results." />
+    <meta property="og:image" content="https://Sajadi Studio.dev/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="DevStudio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- ═══ Twitter Card ═══ -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Sajadi Studio" />
+    <meta name="twitter:creator" content="@Sajadi Studio" />
+    <meta name="twitter:title" content="Sajadi Studio — Premium Freelance Web Developer" />
+    <meta name="twitter:description"
+        content="Premium web experiences for restaurants, cafes, and businesses. Fast delivery, beautiful design, real results." />
+    <meta name="twitter:image" content="https://SajadiStudio.dev/og-image.jpg" />
+
+    <!-- ═══ Structured Data / JSON-LD ═══ -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Sajadi Studio",
+    "description": "Premium freelance web developer specializing in restaurant, cafe, and business websites.",
+    "url": "https://devstudio.dev",
+    "logo": "https://SajadiStudio.dev/logo.png",
+    "image": "https://SajadiStudio.dev/og-image.jpg",
+    "telephone": "+93789591960",
+    "email": "mahdi.dev02@gamil.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "AFG"
+    },
+    "priceRange": "$99 - $299",
+    "serviceArea": {
+      "@type": "AdministrativeArea",
+      "name": "Worldwide"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Web Development Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Restaurant Website"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Cafe Website"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Product Showcase Website"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "WhatsApp Ordering Website"
+          }
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+    },
+    "sameAs": [
+      "https://github.com/Sajadi-dev",
+      
+    ]
+  }
+  </script>
+
+    <!-- ═══ Favicons ═══ -->
+    <link rel="icon" type="image/svg+xml" href="./images/logo.svg">
+    <link rel="apple-touch-icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect width='180' height='180' rx='40' fill='%236C63FF'/><text x='50%25' y='55%25' font-family='Arial Black' font-size='80' font-weight='900' fill='white' text-anchor='middle' dominant-baseline='middle'>DS</text></svg>" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="SajadiStudio" />
+
+    <!-- ═══ Tailwind CSS ═══ -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Vazirmatn', 'Inter', 'system-ui', 'sans-serif'],
+                    },
+                    screens: {
+                        'xs': '375px',
+                        'sm': '640px',
+                        'md': '768px',
+                        'lg': '1024px',
+                        'xl': '1280px',
+                        '2xl': '1536px',
+                    },
+                },
+            },
+        }
+    </script>
+
+    <!-- ═══ Google Fonts ═══ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'" />
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet" />
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet" />
+    </noscript>
+
+    <!-- ═══ Stylesheet ═══ -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ═══ Preload Critical Assets ═══ -->
+    <link rel="preload" href="script.js" as="script" />
+</head>
+
+<body class="bg-[#080810] text-white font-sans overflow-x-hidden transition-colors duration-500" id="top">
+
+    <!-- Skip to content (Accessibility) -->
+    <a href="#main-content"
+        class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[999] focus:px-4 focus:py-2 focus:bg-purple-600 focus:text-white focus:rounded-lg focus:text-sm focus:font-semibold">Skip
+        to main content</a>
+
+    <!-- ═══════════════════════════════════════════
+       ANIMATED BACKGROUND
+  ════════════════════════════════════════════ -->
+    <div class="fixed inset-0 pointer-events-none z-0" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="grid-overlay absolute inset-0"></div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════
+       NAVBAR
+  ════════════════════════════════════════════ -->
+    <header role="banner">
+        <nav id="navbar" class="fixed top-0 left-0 right-0 z-50" role="navigation" aria-label="Main navigation">
+
+            <!-- Desktop Navbar -->
+            <div id="navInner"
+                class="hidden md:flex items-center justify-between mx-6 lg:mx-10 xl:mx-16 mt-5 px-6 py-3.5 glass-nav rounded-2xl transition-all duration-500">
+
+                <!-- Logo -->
+                <a href="#top" class="flex items-center gap-3 group flex-shrink-0" aria-label="SajadiStudio - Home">
+                    <div
+                        class="w-9 h-9 rounded-xl logo-gradient flex items-center justify-center shadow-lg transition-shadow duration-300 group-hover:shadow-purple-500/50">
+                        <span class="text-white font-black text-sm select-none" aria-hidden="true">SS</span>
+                    </div>
+                    <span class="font-bold text-lg tracking-tight dark:text-white text-gray-900 transition-colors"
+                        data-en="SajadiStudio" data-fa="سجادی استودیو">Sajadi Studio</span>
+                </a>
+
+                <!-- Center Links -->
+                <ul class="flex items-center gap-1" role="list">
+                    <li><a href="#why"
+                            class="nav-link px-3 py-2 rounded-lg text-sm font-medium dark:text-gray-400 text-gray-600 hover:dark:text-white hover:text-gray-900 hover:dark:bg-white/5 hover:bg-gray-100 transition-all duration-200"
+                            data-en="Why Us" data-fa="چرا ما" aria-label="Why choose us">Why Us</a></li>
+                    <li><a href="#services"
+                            class="nav-link px-3 py-2 rounded-lg text-sm font-medium dark:text-gray-400 text-gray-600 hover:dark:text-white hover:text-gray-900 hover:dark:bg-white/5 hover:bg-gray-100 transition-all duration-200"
+                            data-en="Services" data-fa="خدمات" aria-label="Our services">Services</a></li>
+                    <li><a href="#projects"
+                            class="nav-link px-3 py-2 rounded-lg text-sm font-medium dark:text-gray-400 text-gray-600 hover:dark:text-white hover:text-gray-900 hover:dark:bg-white/5 hover:bg-gray-100 transition-all duration-200"
+                            data-en="Projects" data-fa="پروژه‌ها" aria-label="Featured projects">Projects</a></li>
+                    <li><a href="#process"
+                            class="nav-link px-3 py-2 rounded-lg text-sm font-medium dark:text-gray-400 text-gray-600 hover:dark:text-white hover:text-gray-900 hover:dark:bg-white/5 hover:bg-gray-100 transition-all duration-200"
+                            data-en="Process" data-fa="فرایند" aria-label="Work process">Process</a></li>
+                    <li><a href="#pricing"
+                            class="nav-link px-3 py-2 rounded-lg text-sm font-medium dark:text-gray-400 text-gray-600 hover:dark:text-white hover:text-gray-900 hover:dark:bg-white/5 hover:bg-gray-100 transition-all duration-200"
+                            data-en="Pricing" data-fa="قیمت‌ها" aria-label="Pricing plans">Pricing</a></li>
+                    <li><a href="#about"
+                            class="nav-link px-3 py-2 rounded-lg text-sm font-medium dark:text-gray-400 text-gray-600 hover:dark:text-white hover:text-gray-900 hover:dark:bg-white/5 hover:bg-gray-100 transition-all duration-200"
+                            data-en="About" data-fa="درباره" aria-label="About me">About</a></li>
+                </ul>
+
+                <!-- Right Controls -->
+                <div class="flex items-center gap-2 flex-shrink-0">
+                    <!-- Language Toggle -->
+                    <button id="langToggle"
+                        class="px-3 py-1.5 rounded-lg text-xs font-bold border dark:border-white/10 border-gray-200 dark:text-gray-300 text-gray-600 hover:border-purple-500 hover:text-purple-500 dark:hover:text-purple-400 transition-all duration-200 select-none"
+                        aria-label="Switch language">
+                        <span id="langLabel">FA</span>
+                    </button>
+
+                    <!-- Theme Toggle -->
+                    <button id="themeToggle"
+                        class="w-9 h-9 rounded-xl dark:bg-white/5 bg-gray-100 flex items-center justify-center hover:bg-purple-500/20 transition-all duration-200 border dark:border-white/10 border-gray-200"
+                        aria-label="Toggle dark/light mode">
+                        <svg id="sunIcon" class="w-4 h-4 text-yellow-400 hidden" fill="currentColor" viewBox="0 0 20 20"
+                            aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <svg id="moonIcon" class="w-4 h-4 dark:text-gray-300 text-gray-600" fill="currentColor"
+                            viewBox="0 0 20 20" aria-hidden="true">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+                        </svg>
+                    </button>
+
+                    <!-- CTA -->
+                    <a href="#contact"
+                        class="px-5 py-2.5 rounded-xl cta-gradient text-white text-sm font-semibold hover:shadow-lg hover:shadow-purple-500/30 transition-all duration-300 hover:-translate-y-0.5"
+                        data-en="Let's Talk" data-fa="تماس بگیرید" aria-label="Contact me">Let's Talk</a>
+                </div>
+            </div>
+
+            <!-- ─── Mobile Navbar ─────────────────────────────────── -->
+            <div class="md:hidden">
+                <!-- Mobile Top Bar -->
+                <div id="mobileBar"
+                    class="flex items-center justify-between mx-3 mt-3 px-4 py-3 glass-nav rounded-2xl transition-all duration-300">
+
+                    <!-- Logo -->
+                    <a href="#top" class="flex items-center gap-2.5" aria-label="DevStudio - Home">
+                        <div class="w-8 h-8 rounded-lg logo-gradient flex items-center justify-center">
+                            <span class="text-white font-black text-xs select-none" aria-hidden="true">DS</span>
+                        </div>
+                        <span class="font-bold text-base tracking-tight dark:text-white text-gray-900"
+                            data-en="DevStudio" data-fa="دِو استودیو">DevStudio</span>
+                    </a>
+
+                    <!-- Mobile Controls -->
+                    <div class="flex items-center gap-2">
+                        <!-- Lang -->
+                        <button id="mobileLangToggle"
+                            class="px-2.5 py-1.5 rounded-lg text-xs font-bold border dark:border-white/10 border-gray-200 dark:text-gray-300 text-gray-600 hover:border-purple-500 hover:text-purple-500 transition-all duration-200 select-none"
+                            aria-label="Switch language">
+                            <span id="mobileLangLabel">FA</span>
+                        </button>
+
+                        <!-- Theme -->
+                        <button id="mobileThemeToggle"
+                            class="w-8 h-8 rounded-lg dark:bg-white/5 bg-gray-100 flex items-center justify-center border dark:border-white/10 border-gray-200"
+                            aria-label="Toggle theme">
+                            <svg id="mobileSunIcon" class="w-3.5 h-3.5 text-yellow-400 hidden" fill="currentColor"
+                                viewBox="0 0 20 20" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <svg id="mobileMoonIcon" class="w-3.5 h-3.5 dark:text-gray-300 text-gray-600"
+                                fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+                            </svg>
+                        </button>
+
+                        <!-- Hamburger -->
+                        <button id="menuToggle"
+                            class="w-8 h-8 rounded-lg dark:bg-white/5 bg-gray-100 flex flex-col items-center justify-center gap-1.5 border dark:border-white/10 border-gray-200"
+                            aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+                            <span id="hb1"
+                                class="block w-4 h-0.5 dark:bg-white bg-gray-800 transition-all duration-300 origin-center"></span>
+                            <span id="hb2"
+                                class="block w-4 h-0.5 dark:bg-white bg-gray-800 transition-all duration-300"></span>
+                            <span id="hb3"
+                                class="block w-4 h-0.5 dark:bg-white bg-gray-800 transition-all duration-300 origin-center"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Mobile Dropdown Menu -->
+                <div id="mobileMenu"
+                    class="mobile-menu-closed overflow-hidden mx-3 mt-1.5 transition-all duration-400 ease-in-out"
+                    aria-hidden="true" role="dialog" aria-label="Mobile navigation">
+                    <div class="glass-nav rounded-2xl p-5">
+                        <nav aria-label="Mobile navigation links">
+                            <ul class="space-y-1 mb-5" role="list">
+                                <li><a href="#why"
+                                        class="mob-link flex items-center gap-3 px-4 py-3 rounded-xl dark:text-gray-300 text-gray-700 hover:dark:bg-white/5 hover:bg-gray-50 hover:text-purple-500 dark:hover:text-purple-400 transition-all duration-200 text-sm font-medium"
+                                        data-en="Why Us" data-fa="چرا ما"><span
+                                            class="w-1.5 h-1.5 rounded-full bg-purple-500 flex-shrink-0"></span><span>Why
+                                            Us</span></a></li>
+                                <li><a href="#services"
+                                        class="mob-link flex items-center gap-3 px-4 py-3 rounded-xl dark:text-gray-300 text-gray-700 hover:dark:bg-white/5 hover:bg-gray-50 hover:text-purple-500 dark:hover:text-purple-400 transition-all duration-200 text-sm font-medium"
+                                        data-en="Services" data-fa="خدمات"><span
+                                            class="w-1.5 h-1.5 rounded-full bg-cyan-500 flex-shrink-0"></span><span>Services</span></a>
+                                </li>
+                                <li><a href="#projects"
+                                        class="mob-link flex items-center gap-3 px-4 py-3 rounded-xl dark:text-gray-300 text-gray-700 hover:dark:bg-white/5 hover:bg-gray-50 hover:text-purple-500 dark:hover:text-purple-400 transition-all duration-200 text-sm font-medium"
+                                        data-en="Projects" data-fa="پروژه‌ها"><span
+                                            class="w-1.5 h-1.5 rounded-full bg-green-500 flex-shrink-0"></span><span>Projects</span></a>
+                                </li>
+                                <li><a href="#process"
+                                        class="mob-link flex items-center gap-3 px-4 py-3 rounded-xl dark:text-gray-300 text-gray-700 hover:dark:bg-white/5 hover:bg-gray-50 hover:text-purple-500 dark:hover:text-purple-400 transition-all duration-200 text-sm font-medium"
+                                        data-en="Process" data-fa="فرایند"><span
+                                            class="w-1.5 h-1.5 rounded-full bg-orange-500 flex-shrink-0"></span><span>Process</span></a>
+                                </li>
+                                <li><a href="#pricing"
+                                        class="mob-link flex items-center gap-3 px-4 py-3 rounded-xl dark:text-gray-300 text-gray-700 hover:dark:bg-white/5 hover:bg-gray-50 hover:text-purple-500 dark:hover:text-purple-400 transition-all duration-200 text-sm font-medium"
+                                        data-en="Pricing" data-fa="قیمت‌ها"><span
+                                            class="w-1.5 h-1.5 rounded-full bg-yellow-500 flex-shrink-0"></span><span>Pricing</span></a>
+                                </li>
+                                <li><a href="#about"
+                                        class="mob-link flex items-center gap-3 px-4 py-3 rounded-xl dark:text-gray-300 text-gray-700 hover:dark:bg-white/5 hover:bg-gray-50 hover:text-purple-500 dark:hover:text-purple-400 transition-all duration-200 text-sm font-medium"
+                                        data-en="About" data-fa="درباره"><span
+                                            class="w-1.5 h-1.5 rounded-full bg-pink-500 flex-shrink-0"></span><span>About</span></a>
+                                </li>
+                                <li><a href="#contact"
+                                        class="mob-link flex items-center gap-3 px-4 py-3 rounded-xl dark:text-gray-300 text-gray-700 hover:dark:bg-white/5 hover:bg-gray-50 hover:text-purple-500 dark:hover:text-purple-400 transition-all duration-200 text-sm font-medium"
+                                        data-en="Contact" data-fa="تماس"><span
+                                            class="w-1.5 h-1.5 rounded-full bg-indigo-500 flex-shrink-0"></span><span>Contact</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a href="#contact"
+                            class="block text-center px-5 py-3.5 rounded-xl cta-gradient text-white text-sm font-bold hover:shadow-lg hover:shadow-purple-500/30 transition-all duration-300"
+                            data-en="Let's Talk — I'm Available" data-fa="تماس بگیرید — آماده‌ام">Let's Talk — I'm
+                            Available</a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- ═══════════════════════════════════════════
+       MAIN CONTENT
+  ════════════════════════════════════════════ -->
+    <main id="main-content">
+
+        <!-- ═══════════════════════════════════════════
+         SECTION 1 — HERO
+    ════════════════════════════════════════════ -->
+        <section id="hero" class="relative min-h-screen flex items-center justify-center"
+            aria-labelledby="hero-headline">
+
+            <!-- Desktop Hero Layout -->
+            <div class="w-full max-w-7xl mx-auto px-6 lg:px-10 xl:px-16 pt-28 md:pt-32 pb-16">
+
+                <div class="flex flex-col items-center justify-center text-center min-h-[calc(100vh-8rem)]">
+
+                    <!-- ── Left Column: Text ── -->
+                    <div class="flex flex-col items-center justify-center max-w-4xl mx-auto">
+
+                        <!-- Available Badge -->
+                        <div
+                            class="hero-badge inline-flex items-center gap-2.5 px-4 py-2 rounded-full glass-card border dark:border-white/10 border-gray-200/60 mb-8">
+                            <span class="relative flex h-2.5 w-2.5">
+                                <span
+                                    class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-400"></span>
+                            </span>
+                            <span class="text-xs font-semibold dark:text-gray-300 text-gray-600"
+                                data-en="Available for new projects" data-fa="آماده پروژه‌های جدید">Available for new
+                                projects</span>
+                        </div>
+
+                        <!-- Main Headline -->
+                        <h1 id="hero-headline"
+                            class="hero-headline text-8xl font-black leading-[0.93] tracking-tight mb-6">
+                            <span class="hero-line block dark:text-white text-gray-900" data-en="Grow Your"
+                                data-fa="کسب‌وکارت را">Grow Your</span>
+                            <span class="hero-line block gradient-text" data-en="Business Beyond"
+                                data-fa="فراتر از شبکه‌های ">Business Beyond</span>
+                            <span class="hero-line block dark:text-white text-gray-900" data-en="Social Media" data-fa="اجتماعی
+رشد بده">Social Media</span>
+                        </h1>
+
+                        <!-- Subheadline -->
+                        <p
+                            class="hero-sub text-lg md:text-xl dark:text-gray-400 text-gray-600 leading-relaxed mb-10 max-w-lg font-light mx-auto text-center">
+                            <span
+                                data-en="Premium web experiences for restaurants, cafes &amp; businesses — crafted to drive real results and grow your revenue."
+                                data-fa="تجربه‌های وب پریمیوم برای رستوران‌ها، کافه‌ها و کسب‌وکارها — طراحی شده برای نتایج واقعی و رشد درآمد شما.">Premium
+                                web experiences for restaurants, cafes &amp; businesses — crafted to drive real results
+                                and grow your revenue.</span>
+                        </p>
+
+                        <!-- CTA Buttons -->
+                        <div class="hero-cta flex flex-col xs:flex-row gap-3 mb-12">
+                            <a href="#projects"
+                                class="group inline-flex items-center justify-center gap-2 px-7 py-4 rounded-2xl cta-gradient text-white font-bold text-sm hover:shadow-2xl hover:shadow-purple-500/40 transition-all duration-300 hover:-translate-y-0.5"
+                                aria-label="View my portfolio">
+                                <span data-en="View My Work" data-fa="مشاهده کارها">View My Work</span>
+                                <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200"
+                                    fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </a>
+                            <a href="#contact"
+                                class="inline-flex items-center justify-center px-7 py-4 rounded-2xl glass-card border dark:border-white/10 border-gray-200 dark:text-white text-gray-900 font-bold text-sm hover:border-purple-500/50 hover:text-purple-400 dark:hover:text-purple-400 transition-all duration-300 hover:-translate-y-0.5"
+                                data-en="Start a Project" data-fa="شروع پروژه"
+                                aria-label="Start a project with me">Start a Project</a>
+                        </div>
+
+                        <!-- Trust Bar -->
+                        <div class="hero-trust flex items-center gap-6 flex-wrap">
+                            <div class="flex -space-x-2">
+                                <div
+                                    class="w-8 h-8 rounded-full bg-gradient-to-br from-purple-400 to-purple-600 border-2 dark:border-[#080810] border-white flex items-center justify-center text-white text-xs font-bold">
+                                    J</div>
+                                <div
+                                    class="w-8 h-8 rounded-full bg-gradient-to-br from-cyan-400 to-cyan-600 border-2 dark:border-[#080810] border-white flex items-center justify-center text-white text-xs font-bold">
+                                    M</div>
+                                <div
+                                    class="w-8 h-8 rounded-full bg-gradient-to-br from-green-400 to-green-600 border-2 dark:border-[#080810] border-white flex items-center justify-center text-white text-xs font-bold">
+                                    S</div>
+                                <div
+                                    class="w-8 h-8 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 border-2 dark:border-[#080810] border-white flex items-center justify-center text-white text-xs font-bold">
+                                    A</div>
+                            </div>
+                            <div>
+                                <div class="flex items-center gap-1 mb-0.5">
+                                    <span class="text-yellow-400 text-sm" aria-hidden="true">★★★★★</span>
+                                    <span class="text-xs font-bold dark:text-white text-gray-900 ml-1">5.0</span>
+                                </div>
+                                <p class="text-xs dark:text-gray-500 text-gray-500" data-en="From 47+ happy clients"
+                                    data-fa="از 3+ مشتری راضی">From 47+ happy clients</p>
+                            </div>
+                            <div class="hidden xs:block w-px h-8 dark:bg-white/10 bg-gray-200"></div>
+                            <div class="hidden xs:flex items-center gap-2">
+                                <div class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
+                                <span class="text-xs dark:text-gray-500 text-gray-500 font-medium"
+                                    data-en="Responds in &lt;24h" data-fa="پاسخ در کمتر از ۲۴ ساعت">Responds in
+                                    &lt;24h</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ── Right Column: Visual Card ── -->
+
+
+                </div>
+
+                <!-- ── Stats Row (Full Width, Bottom of Hero) ── -->
+                <div class="hero-stats grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 lg:mt-0 pb-4">
+                    <div
+                        class="glass-card rounded-2xl p-5 border dark:border-white/5 border-gray-100/60 text-center hover:border-purple-500/20 transition-all duration-300">
+                        <div class="text-2xl sm:text-3xl font-black gradient-text mb-1">2+</div>
+                        <div class="text-xs sm:text-sm dark:text-gray-500 text-gray-500 font-medium"
+                            data-en="Projects Delivered" data-fa="پروژه تحویل‌شده">Projects Delivered</div>
+                    </div>
+                    <div
+                        class="glass-card rounded-2xl p-5 border dark:border-white/5 border-gray-100/60 text-center hover:border-cyan-500/20 transition-all duration-300">
+                        <div class="text-2xl sm:text-3xl font-black gradient-text mb-1">98%</div>
+                        <div class="text-xs sm:text-sm dark:text-gray-500 text-gray-500 font-medium"
+                            data-en="Client Satisfaction" data-fa="رضایت مشتریان">Client Satisfaction</div>
+                    </div>
+                    <div
+                        class="glass-card rounded-2xl p-5 border dark:border-white/5 border-gray-100/60 text-center hover:border-green-500/20 transition-all duration-300">
+                        <div class="text-2xl sm:text-3xl font-black gradient-text mb-1">2yr</div>
+                        <div class="text-xs sm:text-sm dark:text-gray-500 text-gray-500 font-medium"
+                            data-en="Experience" data-fa="سال تجربه">Experience</div>
+                    </div>
+                    <div
+                        class="glass-card rounded-2xl p-5 border dark:border-white/5 border-gray-100/60 text-center hover:border-orange-500/20 transition-all duration-300">
+                        <div class="text-2xl sm:text-3xl font-black gradient-text mb-1">24h</div>
+                        <div class="text-xs sm:text-sm dark:text-gray-500 text-gray-500 font-medium"
+                            data-en="Support Response" data-fa="پشتیبانی سریع">Support Response</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════
+         SECTION 2 — WHY BUSINESSES NEED A WEBSITE
+    ════════════════════════════════════════════ -->
+        <section id="why" class="py-24 px-4 relative" aria-labelledby="why-headline">
+            <div class="max-w-6xl mx-auto">
+                <div class="flex items-center gap-3 mb-6 reveal">
+                    <div class="h-px w-12 bg-gradient-to-r from-transparent to-purple-500" aria-hidden="true"></div>
+                    <span class="text-xs font-semibold text-purple-400 uppercase tracking-widest"
+                        data-en="Why a Website?" data-fa="چرا وب‌سایت؟">Why a Website?</span>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-14 items-center">
+                    <div class="reveal">
+                        <h2 id="why-headline"
+                            class="text-4xl sm:text-5xl md:text-6xl font-black leading-tight dark:text-white text-gray-900 mb-6">
+                            <span data-en="Your Business Deserves" data-fa="کسب‌وکار شما لایق">Your Business
+                                Deserves</span>
+                            <span class="gradient-text block" data-en="a Digital Presence."
+                                data-fa="حضور دیجیتال است.">a Digital Presence.</span>
+                        </h2>
+                        <p class="dark:text-gray-400 text-gray-600 text-lg leading-relaxed mb-8"
+                            data-en="In 2025, having no website means losing customers before they even find you. A professional website works 24/7 — attracting, informing, and converting visitors into loyal customers."
+                            data-fa="در سال ۲۰۲۵، نداشتن وب‌سایت یعنی از دست دادن مشتریان قبل از اینکه شما را پیدا کنند. یک وب‌سایت حرفه‌ای ۲۴ ساعته کار می‌کند.">
+                            In 2025, having no website means losing customers before they even find you. A professional
+                            website works 24/7 — attracting, informing, and converting visitors into loyal customers.
+                        </p>
+                        <a href="#contact"
+                            class="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-semibold transition-colors group">
+                            <span data-en="Get Your Website Today" data-fa="همین امروز وب‌سایتتان را بگیرید">Get Your
+                                Website Today</span>
+                            <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 reveal">
+                        <article
+                            class="glass-card rounded-2xl p-6 border dark:border-white/5 border-gray-100 hover:border-purple-500/30 transition-all duration-300 hover:-translate-y-1">
+                            <div class="w-11 h-11 rounded-xl bg-purple-500/10 flex items-center justify-center mb-4"
+                                aria-hidden="true">
+                                <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-sm dark:text-white text-gray-900 mb-1.5"
+                                data-en="24/7 Availability" data-fa="دسترسی ۲۴/۷">24/7 Availability</h3>
+                            <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed"
+                                data-en="Your website works around the clock, even when you sleep."
+                                data-fa="وب‌سایت شما حتی در خواب هم کار می‌کند.">Your website works around the clock,
+                                even when you sleep.</p>
+                        </article>
+
+                        <article
+                            class="glass-card rounded-2xl p-6 border dark:border-white/5 border-gray-100 hover:border-cyan-500/30 transition-all duration-300 hover:-translate-y-1">
+                            <div class="w-11 h-11 rounded-xl bg-cyan-500/10 flex items-center justify-center mb-4"
+                                aria-hidden="true">
+                                <svg class="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-sm dark:text-white text-gray-900 mb-1.5"
+                                data-en="Google Visibility" data-fa="دیده شدن در گوگل">Google Visibility</h3>
+                            <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed"
+                                data-en="Rank on search engines and attract local customers."
+                                data-fa="در موتورهای جستجو رتبه بگیرید و مشتریان محلی جذب کنید.">Rank on search engines
+                                and attract local customers.</p>
+                        </article>
+
+                        <article
+                            class="glass-card rounded-2xl p-6 border dark:border-white/5 border-gray-100 hover:border-green-500/30 transition-all duration-300 hover:-translate-y-1">
+                            <div class="w-11 h-11 rounded-xl bg-green-500/10 flex items-center justify-center mb-4"
+                                aria-hidden="true">
+                                <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-sm dark:text-white text-gray-900 mb-1.5" data-en="Build Trust"
+                                data-fa="ایجاد اعتماد">Build Trust</h3>
+                            <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed"
+                                data-en="A professional site instantly builds credibility."
+                                data-fa="یک سایت حرفه‌ای فوری اعتبار می‌سازد.">A professional site instantly builds
+                                credibility.</p>
+                        </article>
+
+                        <article
+                            class="glass-card rounded-2xl p-6 border dark:border-white/5 border-gray-100 hover:border-orange-500/30 transition-all duration-300 hover:-translate-y-1">
+                            <div class="w-11 h-11 rounded-xl bg-orange-500/10 flex items-center justify-center mb-4"
+                                aria-hidden="true">
+                                <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-sm dark:text-white text-gray-900 mb-1.5" data-en="Boost Revenue"
+                                data-fa="افزایش درآمد">Boost Revenue</h3>
+                            <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed"
+                                data-en="Convert online visitors into paying customers."
+                                data-fa="بازدیدکنندگان آنلاین را به مشتریان پرداختی تبدیل کنید.">Convert online visitors
+                                into paying customers.</p>
+                        </article>
+
+                        <article
+                            class="glass-card rounded-2xl p-6 border dark:border-white/5 border-gray-100 hover:border-pink-500/30 transition-all duration-300 hover:-translate-y-1 sm:col-span-2">
+                            <div class="flex items-start gap-4">
+                                <div class="w-11 h-11 rounded-xl bg-pink-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true">
+                                    <svg class="w-5 h-5 text-pink-400" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm dark:text-white text-gray-900 mb-1.5"
+                                        data-en="Outshine Competitors" data-fa="پیشی گرفتن از رقبا">Outshine Competitors
+                                    </h3>
+                                    <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed"
+                                        data-en="Stand out from competitors who rely on outdated methods. A modern website is your strongest marketing tool."
+                                        data-fa="از رقبایی که به روش‌های قدیمی تکیه دارند متمایز شوید. یک وب‌سایت مدرن قوی‌ترین ابزار بازاریابی شماست.">
+                                        Stand out from competitors who rely on outdated methods. A modern website is
+                                        your strongest marketing tool.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════
+         SECTION 3 — SERVICES
+    ════════════════════════════════════════════ -->
+        <section id="services" class="py-24 px-4" aria-labelledby="services-headline">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16 reveal">
+                    <div class="flex items-center justify-center gap-3 mb-6" aria-hidden="true">
+                        <div class="h-px w-12 bg-gradient-to-r from-transparent to-purple-500"></div>
+                        <span class="text-xs font-semibold text-purple-400 uppercase tracking-widest"
+                            data-en="What I Build" data-fa="چه می‌سازم">What I Build</span>
+                        <div class="h-px w-12 bg-gradient-to-l from-transparent to-purple-500"></div>
+                    </div>
+                    <h2 id="services-headline"
+                        class="text-4xl sm:text-5xl md:text-6xl font-black dark:text-white text-gray-900 mb-4"
+                        data-en="My Services" data-fa="خدمات من">My Services</h2>
+                    <p class="dark:text-gray-400 text-gray-600 text-lg max-w-xl mx-auto"
+                        data-en="Tailored web solutions that match your business needs and budget."
+                        data-fa="راه‌حل‌های وب متناسب با نیازها و بودجه کسب‌وکار شما.">Tailored web solutions that match
+                        your business needs and budget.</p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                    <!-- Service 1 -->
+                    <article
+                        class="service-card glass-card rounded-3xl p-7 border dark:border-white/5 border-gray-100 hover:border-purple-500/40 transition-all duration-500 group hover:-translate-y-2 reveal">
+                        <div class="w-13 h-13 w-12 h-12 rounded-2xl bg-purple-500/10 flex items-center justify-center mb-5 group-hover:bg-purple-500/20 transition-colors duration-300"
+                            aria-hidden="true">
+                            <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                            </svg>
+                        </div>
+                        <h3 class="text-base font-bold dark:text-white text-gray-900 mb-2.5"
+                            data-en="Restaurant Websites" data-fa="وب‌سایت رستوران">Restaurant Websites</h3>
+                        <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed mb-5"
+                            data-en="Stunning restaurant sites with menus, reservations, and online ordering."
+                            data-fa="سایت‌های خیره‌کننده رستوران با منو، رزرو و سفارش آنلاین.">Stunning restaurant sites
+                            with menus, reservations, and online ordering.</p>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span
+                                class="px-2 py-1 rounded-md text-xs dark:bg-white/5 bg-gray-50 dark:text-gray-400 text-gray-500 border dark:border-white/5 border-gray-100"
+                                data-en="Menu" data-fa="منو">Menu</span>
+                            <span
+                                class="px-2 py-1 rounded-md text-xs dark:bg-white/5 bg-gray-50 dark:text-gray-400 text-gray-500 border dark:border-white/5 border-gray-100"
+                                data-en="Reservations" data-fa="رزرو">Reservations</span>
+                            <span
+                                class="px-2 py-1 rounded-md text-xs dark:bg-white/5 bg-gray-50 dark:text-gray-400 text-gray-500 border dark:border-white/5 border-gray-100"
+                                data-en="Gallery" data-fa="گالری">Gallery</span>
+                        </div>
+                    </article>
+
+                    <!-- Service 2 -->
+                    <article
+                        class="service-card glass-card rounded-3xl p-7 border dark:border-white/5 border-gray-100 hover:border-cyan-500/40 transition-all duration-500 group hover:-translate-y-2 reveal">
+                        <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 flex items-center justify-center mb-5 group-hover:bg-cyan-500/20 transition-colors duration-300"
+                            aria-hidden="true">
+                            <svg class="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-base font-bold dark:text-white text-gray-900 mb-2.5" data-en="Cafe Websites"
+                            data-fa="وب‌سایت کافه">Cafe Websites</h3>
+                        <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed mb-5"
+                            data-en="Cozy, aesthetic cafe websites that tell your story and showcase specialty drinks."
+                            data-fa="وب‌سایت‌های زیبا و دنج کافه که داستان شما را روایت می‌کند.">Cozy, aesthetic cafe
+                            websites that tell your story and showcase specialty drinks.</p>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span
+                                class="px-2 py-1 rounded-md text-xs dark:bg-white/5 bg-gray-50 dark:text-gray-400 text-gray-500 border dark:border-white/5 border-gray-100"
+                                data-en="Aesthetic" data-fa="زیبا">Aesthetic</span>
+                            <span
+                                class="px-2 py-1 rounded-md text-xs dark:bg-white/5 bg-gray-50 dark:text-gray-400 text-gray-500 border dark:border-white/5 border-gray-100"
+                                data-en="Menu" data-fa="منو">Menu</span>
+                            <span
+                                class="px-2 py-1 rounded-md text-xs dark:bg-white/5 bg-gray-50 dark:text-gray-400 text-gray-500 border dark:border-white/5 border-gray-100"
+                                data-en="Branding" data-fa="برندینگ">Branding</span>
+                        </div>
+                    </article>
+
+                    <!-- Service 3 -->
+                    <article
+                        class="service-card glass-card rounded-3xl p-7 border dark:border-white/5 border-gray-100 hover:border-green-500/40 transition-all duration-500 group hover:-translate-y-2 reveal">
+                        <div class="w-12 h-12 rounded-2xl bg-green-500/10 flex items-center justify-center mb-5 group-hover:bg-green-500/20 transition-colors duration-300"
+                            aria-hidden="true">
+                            <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                            </svg>
+                        </div>
+                        <h3 class="text-base font-bold dark:text-white text-gray-900 mb-2.5" data-en="Product Showcase"
+                            data-fa="ویترین محصولات">Product Showcase</h3>
+                        <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed mb-5"
+                            data-en="Elegant product showcase sites that turn browsers into buyers with immersive visuals."
+                            data-fa="وب‌سایت‌های زیبای ویترین محصول که بازدیدکنندگان را به خریدار تبدیل می‌کند.">Elegant
+                            product showcase sites that turn browsers into buyers with immersive visuals.</p>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span
+                                class="px-2 py-1 rounded-md text-xs dark:bg-white/5 bg-gray-50 dark:text-gray-400 text-gray-500 border dark:border-white/5 border-gray-100"
+                                data-en="Catalog" data-fa="کاتالوگ">Catalog</span>
+                            <span
+                                class="px-2 py-1 rounded-md text-xs dark:bg-white/5 bg-gray-50 dark:text-gray-400 text-gray-500 border dark:border-white/5 border-gray-100"
+                                data-en="Filtering" data-fa="فیلتر">Filtering</span>
+                            <span
+                                class="px-2 py-1 rounded-md text-xs dark:bg-white/5 bg-gray-50 dark:text-gray-400 text-gray-500 border dark:border-white/5 border-gray-100"
+                                data-en="CTA" data-fa="دعوت">CTA</span>
+                        </div>
+                    </article>
+
+                    <!-- Service 4 -->
+                    <article
+                        class="service-card glass-card rounded-3xl p-7 border dark:border-white/5 border-gray-100 hover:border-emerald-500/40 transition-all duration-500 group hover:-translate-y-2 reveal">
+                        <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 flex items-center justify-center mb-5 group-hover:bg-emerald-500/20 transition-colors duration-300"
+                            aria-hidden="true">
+                            <svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-base font-bold dark:text-white text-gray-900 mb-2.5" data-en="WhatsApp Ordering"
+                            data-fa="سفارش واتساپ">WhatsApp Ordering</h3>
+                        <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed mb-5"
+                            data-en="Seamless WhatsApp-integrated ordering — customers order directly from your website."
+                            data-fa="سیستم‌های سفارش یکپارچه با واتساپ — مشتریان مستقیم از سایت شما سفارش می‌دهند.">
+                            Seamless WhatsApp-integrated ordering — customers order directly from your website.</p>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span
+                                class="px-2 py-1 rounded-md text-xs dark:bg-white/5 bg-gray-50 dark:text-gray-400 text-gray-500 border dark:border-white/5 border-gray-100"
+                                data-en="WhatsApp" data-fa="واتساپ">WhatsApp</span>
+                            <span
+                                class="px-2 py-1 rounded-md text-xs dark:bg-white/5 bg-gray-50 dark:text-gray-400 text-gray-500 border dark:border-white/5 border-gray-100"
+                                data-en="Cart" data-fa="سبد">Cart</span>
+                            <span
+                                class="px-2 py-1 rounded-md text-xs dark:bg-white/5 bg-gray-50 dark:text-gray-400 text-gray-500 border dark:border-white/5 border-gray-100"
+                                data-en="Fast" data-fa="سریع">Fast</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════
+         SECTION 4 — FEATURED PROJECTS
+    ════════════════════════════════════════════ -->
+        <section id="projects" class="py-24 px-4" aria-labelledby="projects-headline">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16 reveal">
+                    <div class="flex items-center justify-center gap-3 mb-6" aria-hidden="true">
+                        <div class="h-px w-12 bg-gradient-to-r from-transparent to-purple-500"></div>
+                        <span class="text-xs font-semibold text-purple-400 uppercase tracking-widest"
+                            data-en="Portfolio" data-fa="پورتفولیو">Portfolio</span>
+                        <div class="h-px w-12 bg-gradient-to-l from-transparent to-purple-500"></div>
+                    </div>
+                    <h2 id="projects-headline"
+                        class="text-4xl sm:text-5xl md:text-6xl font-black dark:text-white text-gray-900 mb-4"
+                        data-en="Featured Projects" data-fa="پروژه‌های برجسته">Featured Projects</h2>
+                    <p class="dark:text-gray-400 text-gray-600 text-lg max-w-xl mx-auto"
+                        data-en="Real work, real results — a selection of my finest web experiences."
+                        data-fa="کار واقعی، نتایج واقعی — انتخابی از بهترین تجربه‌های وب من.">Real work, real results —
+                        a selection of my finest web experiences.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Project 1 -->
+                    <article
+                        class="project-card group glass-card rounded-3xl overflow-hidden border dark:border-white/5 border-gray-100 hover:border-purple-500/30 transition-all duration-500 hover:-translate-y-2 reveal">
+                        <div class="relative h-52 overflow-hidden bg-cover bg-center"
+                            style="background-image: url('./images/project1.jpg');">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"
+                                aria-hidden="true"></div>
+                            <div class="absolute top-4 right-4">
+                                <!-- <span
+                                    class="px-2.5 py-1 rounded-full text-xs font-semibold bg-purple-500/20 text-purple-300 border border-purple-500/30"
+                                    data-en="Live" data-fa="زنده">Live</span> -->
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-start justify-between mb-2.5">
+                                <h3 class="font-bold text-base dark:text-white text-gray-900"
+                                    data-en="Luxury Restaurant" data-fa="رستوران لوکس">Kabul Sofra Restaurant Website
+                                </h3>
+                                <a href="#"
+                                    class="w-7 h-7 rounded-lg dark:bg-white/5 bg-gray-50 flex items-center justify-center hover:bg-purple-500/20 transition-colors"
+                                    aria-label="View Luxury Restaurant project">
+                                    <svg class="w-3.5 h-3.5 dark:text-gray-400 text-gray-500" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <p class="text-sm dark:text-gray-500 text-gray-500 mb-4 leading-relaxed"
+                                data-en="High-end dining website with online reservations, animated menu, and immersive photo gallery."
+                                data-fa="وب‌سایت مدرن دو زبانه برای رستوران کابل سفره با منوی آنلاین، سفارش سریع و سئوی بهینه.">
+                                Modern bilingual restaurant website with online menu, delivery CTA, WhatsApp
+                                integration, and SEO optimization.</p>
+                            <div class="flex flex-wrap gap-1.5">
+                                <span
+                                    class="px-2 py-0.5 rounded text-xs bg-purple-500/10 text-purple-400 font-medium">HTML/CSS</span>
+                                <span
+                                    class="px-2 py-0.5 rounded text-xs bg-purple-500/10 text-purple-400 font-medium">JavaScript</span>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article
+                        class="project-card group glass-card rounded-3xl overflow-hidden border dark:border-white/5 border-gray-100 hover:border-cyan-500/30 transition-all duration-500 hover:-translate-y-2 reveal">
+                        <div class="relative h-52 overflow-hidden bg-gradient-to-br from-cyan-900/40 to-teal-900/40 bg-cover bg-center"
+                            style="background-image: url('./images/project2.jpg');">
+
+
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"
+                                aria-hidden="true"></div>
+                            <div class="absolute top-4 right-4">
+                                <!-- <span
+                                    class="px-2.5 py-1 rounded-full text-xs font-semibold bg-cyan-500/20 text-cyan-300 border border-cyan-500/30"
+                                    data-en="Live" data-fa="زنده">Live</span> -->
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-start justify-between mb-2.5">
+                                <h3 class="font-bold text-base dark:text-white text-gray-900" data-en="Herat Brew Café"
+                                    data-fa="کافه هرات برو">Herat Brew Café</h3>
+                                <a href="#"
+                                    class="w-7 h-7 rounded-lg dark:bg-white/5 bg-gray-50 flex items-center justify-center hover:bg-cyan-500/20 transition-colors"
+                                    aria-label="View Artisan Cafe project">
+                                    <svg class="w-3.5 h-3.5 dark:text-gray-400 text-gray-500" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <p class="text-sm dark:text-gray-500 text-gray-500 mb-4 leading-relaxed"
+                                data-en="Warm, inviting cafe website with full drink menu, story section, and WhatsApp ordering."
+                                data-fa="وب‌سایت مدرن کافه با منوی آنلاین، سفارش واتساپ، پشتیبانی دو زبانه و طراحی ریسپانسیو.">
+                                Bilingual café website with online menu, WhatsApp ordering, and responsive design.</p>
+                            <div class="flex flex-wrap gap-1.5">
+                                <span
+                                    class="px-2 py-0.5 rounded text-xs bg-cyan-500/10 text-cyan-400 font-medium">HTML/CSS</span>
+                                <span
+                                    class="px-2 py-0.5 rounded text-xs bg-cyan-500/10 text-cyan-400 font-medium">JavaScript</span>
+                                <span
+                                    class="px-2 py-0.5 rounded text-xs bg-cyan-500/10 text-cyan-400 font-medium">WhatsApp
+                                    API</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article
+                        class="project-card group glass-card rounded-3xl overflow-hidden border dark:border-white/5 border-gray-100 hover:border-green-500/30 transition-all duration-500 hover:-translate-y-2 reveal md:col-span-2 lg:col-span-1">
+                        <div class="relative h-52 overflow-hidden bg-gradient-to-br from-green-900/40 to-emerald-900/40 bg-cover bg-center"
+                            style="background-image: url('./images/project3.jpg');">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"
+                                aria-hidden="true"></div>
+                            <div class="absolute top-4 right-4">
+                                <span
+                                    class="px-2.5 py-1 rounded-full text-xs font-semibold bg-green-500/20 text-green-300 border border-green-500/30"
+                                    data-en="Live" data-fa="زنده">Live</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-start justify-between mb-2.5">
+                                <h3 class="font-bold text-base dark:text-white text-gray-900"
+                                    data-en="Product Showcase Store" data-fa="وب‌سایت خیاطی سجادی">Sajadi Tailoring
+                                    Website</h3>
+                                <a href="https://sajaditailoring.vercel.app/"
+                                    class="w-7 h-7 rounded-lg dark:bg-white/5 bg-gray-50 flex items-center justify-center hover:bg-green-500/20 transition-colors"
+                                    aria-label="View Product Showcase Store project">
+                                    <svg class="w-3.5 h-3.5 dark:text-gray-400 text-gray-500" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <p class="text-sm dark:text-gray-500 text-gray-500 mb-4 leading-relaxed"
+                                data-en="Beautiful product catalog with filtering, detailed product pages, and direct WhatsApp ordering."
+                                data-fa="وب‌سایت حرفه‌ای خیاطی با معرفی خدمات، نمونه‌کارها و راه‌های ارتباطی.">
+                                Professional tailoring website featuring custom services, portfolio showcase, and easy
+                                customer contact.
+                            </p>
+                            <div class="flex flex-wrap gap-1.5">
+                                <span
+                                    class="px-2 py-0.5 rounded text-xs bg-green-500/10 text-green-400 font-medium">HTML/CSS</span>
+                                <span
+                                    class="px-2 py-0.5 rounded text-xs bg-green-500/10 text-green-400 font-medium">JavaScript</span>
+                                <span
+                                    class="px-2 py-0.5 rounded text-xs bg-green-500/10 text-green-400 font-medium">Animations</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════
+         SECTION 5 — WORK PROCESS
+    ════════════════════════════════════════════ -->
+        <section id="process" class="py-24 px-4" aria-labelledby="process-headline">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-16 reveal">
+                    <div class="flex items-center justify-center gap-3 mb-6" aria-hidden="true">
+                        <div class="h-px w-12 bg-gradient-to-r from-transparent to-purple-500"></div>
+                        <span class="text-xs font-semibold text-purple-400 uppercase tracking-widest"
+                            data-en="How I Work" data-fa="نحوه کار من">How I Work</span>
+                        <div class="h-px w-12 bg-gradient-to-l from-transparent to-purple-500"></div>
+                    </div>
+                    <h2 id="process-headline"
+                        class="text-4xl sm:text-5xl md:text-6xl font-black dark:text-white text-gray-900 mb-4"
+                        data-en="Work Process" data-fa="فرایند کاری">Work Process</h2>
+                    <p class="dark:text-gray-400 text-gray-600 text-lg max-w-xl mx-auto"
+                        data-en="A transparent, streamlined process from idea to launch."
+                        data-fa="یک فرایند شفاف و ساده از ایده تا راه‌اندازی.">A transparent, streamlined process from
+                        idea to launch.</p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center reveal group">
+                        <div class="relative inline-flex mb-5">
+                            <div
+                                class="w-14 h-14 rounded-2xl glass-card border dark:border-white/10 border-gray-200 flex items-center justify-center group-hover:border-purple-500/50 transition-all duration-300">
+                                <span class="text-xl font-black gradient-text">01</span>
+                            </div>
+                        </div>
+                        <h3 class="font-bold dark:text-white text-gray-900 mb-2 text-sm" data-en="Discovery"
+                            data-fa="کشف">Discovery</h3>
+                        <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed"
+                            data-en="Understanding your goals, brand, and audience."
+                            data-fa="درک اهداف، برند و مخاطبان شما.">Understanding your goals, brand, and audience.</p>
+                    </div>
+                    <div class="text-center reveal group">
+                        <div class="relative inline-flex mb-5">
+                            <div
+                                class="w-14 h-14 rounded-2xl glass-card border dark:border-white/10 border-gray-200 flex items-center justify-center group-hover:border-cyan-500/50 transition-all duration-300">
+                                <span class="text-xl font-black gradient-text">02</span>
+                            </div>
+                        </div>
+                        <h3 class="font-bold dark:text-white text-gray-900 mb-2 text-sm" data-en="Design"
+                            data-fa="طراحی">Design</h3>
+                        <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed"
+                            data-en="Creating a stunning custom design for your brand."
+                            data-fa="ایجاد طراحی خیره‌کننده برای برند شما.">Creating a stunning custom design for your
+                            brand.</p>
+                    </div>
+                    <div class="text-center reveal group">
+                        <div class="relative inline-flex mb-5">
+                            <div
+                                class="w-14 h-14 rounded-2xl glass-card border dark:border-white/10 border-gray-200 flex items-center justify-center group-hover:border-green-500/50 transition-all duration-300">
+                                <span class="text-xl font-black gradient-text">03</span>
+                            </div>
+                        </div>
+                        <h3 class="font-bold dark:text-white text-gray-900 mb-2 text-sm" data-en="Development"
+                            data-fa="توسعه">Development</h3>
+                        <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed"
+                            data-en="Building fast, responsive, pixel-perfect websites."
+                            data-fa="ساخت وب‌سایت‌های سریع و کامل.">Building fast, responsive, pixel-perfect websites.
+                        </p>
+                    </div>
+                    <div class="text-center reveal group">
+                        <div class="relative inline-flex mb-5">
+                            <div
+                                class="w-14 h-14 rounded-2xl glass-card border dark:border-white/10 border-gray-200 flex items-center justify-center group-hover:border-orange-500/50 transition-all duration-300">
+                                <span class="text-xl font-black gradient-text">04</span>
+                            </div>
+                        </div>
+                        <h3 class="font-bold dark:text-white text-gray-900 mb-2 text-sm" data-en="Launch"
+                            data-fa="راه‌اندازی">Launch</h3>
+                        <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed"
+                            data-en="Deploying and handing over your live website."
+                            data-fa="استقرار و تحویل وب‌سایت زنده شما.">Deploying and handing over your live website.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════
+         SECTION 6 — PRICING
+    ════════════════════════════════════════════ -->
+        <section id="pricing" class="py-24 px-4" aria-labelledby="pricing-headline">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16 reveal">
+                    <div class="flex items-center justify-center gap-3 mb-6" aria-hidden="true">
+                        <div class="h-px w-12 bg-gradient-to-r from-transparent to-purple-500"></div>
+                        <span class="text-xs font-semibold text-purple-400 uppercase tracking-widest"
+                            data-en="Investment" data-fa="سرمایه‌گذاری">Investment</span>
+                        <div class="h-px w-12 bg-gradient-to-l from-transparent to-purple-500"></div>
+                    </div>
+                    <h2 id="pricing-headline"
+                        class="text-4xl sm:text-5xl md:text-6xl font-black dark:text-white text-gray-900 mb-4"
+                        data-en="Simple Pricing" data-fa="قیمت‌گذاری ساده">Simple Pricing</h2>
+                    <p class="dark:text-gray-400 text-gray-600 text-lg max-w-xl mx-auto"
+                        data-en="Transparent, no-surprise pricing for every stage of your business."
+                        data-fa="قیمت‌گذاری شفاف و بدون غافلگیری برای هر مرحله از کسب‌وکار شما.">Transparent,
+                        no-surprise pricing for every stage of your business.</p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 items-start">
+                    <!-- Starter -->
+                    <div
+                        class="glass-card rounded-3xl p-7 border dark:border-white/5 border-gray-100 hover:border-purple-500/20 transition-all duration-500 reveal">
+                        <span class="text-xs font-bold text-purple-400 uppercase tracking-widest" data-en="Starter"
+                            data-fa="استارتر">Starter</span>
+                        <div class="mt-3 flex items-baseline gap-1 mb-1.5">
+                            <span class="text-4xl font-black dark:text-white text-gray-900">$99</span>
+                            <span class="dark:text-gray-500 text-gray-500 text-sm" data-en="one-time"
+                                data-fa="یک‌بار">one-time</span>
+                        </div>
+                        <p class="dark:text-gray-500 text-gray-500 text-sm mb-6"
+                            data-en="Perfect for small businesses getting started online."
+                            data-fa="عالی برای کسب‌وکارهای کوچک که آنلاین می‌شوند.">Perfect for small businesses getting
+                            started online.</p>
+                        <ul class="space-y-3 mb-7" role="list">
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="1–3 Page Website" data-fa="وب‌سایت ۱ تا ۳ صفحه">1–3 Page Website</span>
+                            </li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="Mobile Responsive" data-fa="واکنش‌گرا موبایل">Mobile Responsive</span></li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="WhatsApp Integration" data-fa="ادغام واتساپ">WhatsApp Integration</span>
+                            </li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700" data-en="Contact Form"
+                                    data-fa="فرم تماس">Contact Form</span></li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full dark:bg-white/5 bg-gray-100 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 dark:text-gray-600 text-gray-400"
+                                        fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-600 text-gray-400 line-through text-sm"
+                                    data-en="Advanced Animations" data-fa="انیمیشن‌های پیشرفته">Advanced
+                                    Animations</span></li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full dark:bg-white/5 bg-gray-100 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 dark:text-gray-600 text-gray-400"
+                                        fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-600 text-gray-400 line-through text-sm"
+                                    data-en="Monthly Support" data-fa="پشتیبانی ماهانه">Monthly Support</span></li>
+                        </ul>
+                        <a href="#contact"
+                            class="block text-center px-5 py-3 rounded-xl border dark:border-white/10 border-gray-200 dark:text-white text-gray-900 font-semibold text-sm hover:border-purple-500/50 hover:text-purple-400 transition-all duration-300"
+                            data-en="Get Started" data-fa="شروع کنید">Get Started</a>
+                    </div>
+
+                    <!-- Pro -->
+                    <div class="glass-card rounded-3xl p-7 border border-purple-500/40 relative reveal"
+                        style="background:linear-gradient(135deg,rgba(108,99,255,.08) 0%,rgba(108,99,255,.03) 100%)">
+                        <div class="absolute -top-4 left-1/2 -translate-x-1/2">
+                            <span
+                                class="px-4 py-1.5 rounded-full text-xs font-bold cta-gradient text-white shadow-lg shadow-purple-500/30"
+                                data-en="Most Popular" data-fa="محبوب‌ترین">Most Popular</span>
+                        </div>
+                        <span class="text-xs font-bold text-purple-400 uppercase tracking-widest" data-en="Professional"
+                            data-fa="حرفه‌ای">Professional</span>
+                        <div class="mt-3 flex items-baseline gap-1 mb-1.5">
+                            <span class="text-4xl font-black dark:text-white text-gray-900">$199</span>
+                            <span class="dark:text-gray-500 text-gray-500 text-sm" data-en="one-time"
+                                data-fa="یک‌بار">one-time</span>
+                        </div>
+                        <p class="dark:text-gray-500 text-gray-500 text-sm mb-6"
+                            data-en="For growing businesses ready to make an impact."
+                            data-fa="برای کسب‌وکارهای در حال رشد.">For growing businesses ready to make an impact.</p>
+                        <ul class="space-y-3 mb-7" role="list">
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700" data-en="Up to 7 Pages"
+                                    data-fa="تا ۷ صفحه">Up to 7 Pages</span></li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="Advanced Animations" data-fa="انیمیشن‌های پیشرفته">Advanced
+                                    Animations</span></li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="WhatsApp Order System" data-fa="سیستم سفارش واتساپ">WhatsApp Order
+                                    System</span></li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="SEO Optimization" data-fa="بهینه‌سازی سئو">SEO Optimization</span></li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="3 Months Support" data-fa="۳ ماه پشتیبانی">3 Months Support</span></li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="Custom Domain Setup" data-fa="راه‌اندازی دامنه">Custom Domain Setup</span>
+                            </li>
+                        </ul>
+                        <a href="#contact"
+                            class="block text-center px-5 py-3 rounded-xl cta-gradient text-white font-bold text-sm hover:shadow-lg hover:shadow-purple-500/40 transition-all duration-300 hover:-translate-y-0.5"
+                            data-en="Get Started" data-fa="شروع کنید">Get Started</a>
+                    </div>
+
+                    <!-- Premium -->
+                    <div
+                        class="glass-card rounded-3xl p-7 border dark:border-white/5 border-gray-100 hover:border-yellow-500/20 transition-all duration-500 reveal sm:col-span-2 lg:col-span-1">
+                        <span class="text-xs font-bold text-yellow-400 uppercase tracking-widest" data-en="Premium"
+                            data-fa="پریمیوم">Premium</span>
+                        <div class="mt-3 flex items-baseline gap-1 mb-1.5">
+                            <span class="text-4xl font-black dark:text-white text-gray-900">$299</span>
+                            <span class="dark:text-gray-500 text-gray-500 text-sm" data-en="one-time"
+                                data-fa="یک‌بار">one-time</span>
+                        </div>
+                        <p class="dark:text-gray-500 text-gray-500 text-sm mb-6"
+                            data-en="For businesses demanding the very best online presence."
+                            data-fa="برای کسب‌وکارهایی که بهترین حضور آنلاین را می‌خواهند.">For businesses demanding the
+                            very best online presence.</p>
+                        <ul class="space-y-3 mb-7" role="list">
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="Unlimited Pages" data-fa="صفحات نامحدود">Unlimited Pages</span></li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="Full Order Management" data-fa="مدیریت کامل سفارش">Full Order
+                                    Management</span></li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="Premium Animations" data-fa="انیمیشن‌های پریمیوم">Premium Animations</span>
+                            </li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="Advanced SEO + Analytics" data-fa="سئو پیشرفته + آنالیتیکس">Advanced SEO +
+                                    Analytics</span></li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="1 Year Priority Support" data-fa="۱ سال پشتیبانی اولویت‌دار">1 Year
+                                    Priority Support</span></li>
+                            <li class="flex items-center gap-2.5 text-sm"><span
+                                    class="w-4 h-4 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-2.5 h-2.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></span><span class="dark:text-gray-300 text-gray-700"
+                                    data-en="Brand Identity Package" data-fa="بسته هویت برند">Brand Identity
+                                    Package</span></li>
+                        </ul>
+                        <a href="#contact"
+                            class="block text-center px-5 py-3 rounded-xl border dark:border-white/10 border-gray-200 dark:text-white text-gray-900 font-semibold text-sm hover:border-yellow-500/50 hover:text-yellow-400 transition-all duration-300"
+                            data-en="Get Started" data-fa="شروع کنید">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════
+         SECTION 7 — ABOUT
+    ════════════════════════════════════════════ -->
+        <section id="about" class="py-24 px-4" aria-labelledby="about-headline">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+                    <!-- Visual -->
+                    <div class="reveal order-2 lg:order-1">
+                        <div class="relative max-w-sm mx-auto">
+                            <div
+                                class="glass-card rounded-3xl p-8 border dark:border-white/10 border-gray-200 text-center relative z-10">
+                                <div class="w-24 h-24 rounded-full logo-gradient mx-auto mb-5 flex items-center justify-center shadow-2xl shadow-purple-500/30"
+                                    aria-hidden="true">
+                                    <span class="text-3xl font-black text-white">M</span>
+                                </div>
+                                <h3 class="text-lg font-bold dark:text-white text-gray-900 mb-1"
+                                    data-en="Mahdi Developer" data-fa="مهدی توسعه‌دهنده">Mahdi Developer</h3>
+                                <p class="text-purple-400 text-sm font-medium mb-5" data-en="Front-end Web Developer"
+                                    data-fa="توسعه‌دهنده وب فرانت اند">Front-end Web Developer</p>
+                                <div class="flex flex-wrap justify-center gap-1.5 mb-6">
+                                    <span
+                                        class="px-2.5 py-1 rounded-full text-xs bg-purple-500/10 text-purple-400 border border-purple-500/20">HTML/CSS</span>
+                                    <span
+                                        class="px-2.5 py-1 rounded-full text-xs bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">JavaScript</span>
+                                    <span
+                                        class="px-2.5 py-1 rounded-full text-xs bg-green-500/10 text-green-400 border border-green-500/20">Tailwind</span>
+                                    <span
+                                        class="px-2.5 py-1 rounded-full text-xs bg-orange-500/10 text-orange-400 border border-orange-500/20">React</span>
+                                </div>
+                                <div class="grid grid-cols-3 gap-3 pt-5 border-t dark:border-white/5 border-gray-100">
+                                    <div>
+                                        <div class="text-xl font-black gradient-text">2+</div>
+                                        <div class="text-xs dark:text-gray-500 text-gray-500" data-en="Projects"
+                                            data-fa="پروژه">Projects</div>
+                                    </div>
+                                    <div>
+                                        <div class="text-xl font-black gradient-text">2yr</div>
+                                        <div class="text-xs dark:text-gray-500 text-gray-500" data-en="Exp."
+                                            data-fa="تجربه">Exp.</div>
+                                    </div>
+                                    <div>
+                                        <div class="text-xl font-black gradient-text">98%</div>
+                                        <div class="text-xs dark:text-gray-500 text-gray-500" data-en="Happy"
+                                            data-fa="راضی">Happy</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Floating Elements -->
+                            <div class="absolute -top-4 -right-4 glass-card rounded-2xl px-3.5 py-2.5 border dark:border-white/10 border-gray-200 flex items-center gap-2 shadow-lg float-card-1"
+                                aria-hidden="true">
+                                <div class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
+                                <span class="text-xs font-semibold dark:text-gray-300 text-gray-700" data-en="Available"
+                                    data-fa="آماده">Available</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Content -->
+                    <div class="reveal order-1 lg:order-2">
+                        <div class="flex items-center gap-3 mb-6" aria-hidden="true">
+                            <div class="h-px w-12 bg-gradient-to-r from-transparent to-purple-500"></div>
+                            <span class="text-xs font-semibold text-purple-400 uppercase tracking-widest"
+                                data-en="About Me" data-fa="درباره من">About Me</span>
+                        </div>
+                        <h2 id="about-headline"
+                            class="text-4xl sm:text-5xl font-black dark:text-white text-gray-900 mb-6 leading-tight">
+                            <span data-en="Passionate About" data-fa="علاقه‌مند به">Passionate About</span>
+                            <span class="gradient-text block" data-en="Crafting Digital" data-fa="خلق تجربیات">Crafting
+                                Digital</span>
+                            <span data-en="Experiences." data-fa="دیجیتال.">Experiences.</span>
+                        </h2>
+                        <p class="dark:text-gray-400 text-gray-600 text-base leading-relaxed mb-5"
+                            data-en="Hi, I'm Mahdi — a freelance web developer with 5+ years of experience building premium websites for restaurants, cafes, and businesses. I specialize in fast, beautiful, and conversion-focused web experiences."
+                            data-fa="سلام، من مهدی هستم — توسعه‌دهنده وب آزاد با بیش از 2 سال تجربه در ساخت وب‌سایت‌های پریمیوم.">
+                            Hi, I'm Mahdi — a freelance web developer with 2+ years of experience building premium
+                            websites for restaurants, cafes, and businesses. I specialize in fast, beautiful, and
+                            conversion-focused web experiences.</p>
+                        <p class="dark:text-gray-400 text-gray-600 text-base leading-relaxed mb-8"
+                            data-en="Every project is treated as a unique opportunity to deliver something extraordinary. Great design isn't just beautiful — it drives real business results."
+                            data-fa="هر پروژه یک فرصت منحصربه‌فرد است. طراحی عالی نه تنها زیباست — بلکه نتایج واقعی تجاری ایجاد می‌کند.">
+                            Every project is treated as a unique opportunity to deliver something extraordinary. Great
+                            design isn't just beautiful — it drives real business results.</p>
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-1.5 h-1.5 rounded-full bg-purple-400 flex-shrink-0" aria-hidden="true">
+                                </div><span class="text-sm dark:text-gray-300 text-gray-700 font-medium"
+                                    data-en="Pixel-Perfect Design" data-fa="طراحی دقیق">Pixel-Perfect Design</span>
+                            </div>
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-1.5 h-1.5 rounded-full bg-cyan-400 flex-shrink-0" aria-hidden="true">
+                                </div><span class="text-sm dark:text-gray-300 text-gray-700 font-medium"
+                                    data-en="Fast Delivery" data-fa="تحویل سریع">Fast Delivery</span>
+                            </div>
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-1.5 h-1.5 rounded-full bg-green-400 flex-shrink-0" aria-hidden="true">
+                                </div><span class="text-sm dark:text-gray-300 text-gray-700 font-medium"
+                                    data-en="Clean Code" data-fa="کد تمیز">Clean Code</span>
+                            </div>
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-1.5 h-1.5 rounded-full bg-orange-400 flex-shrink-0" aria-hidden="true">
+                                </div><span class="text-sm dark:text-gray-300 text-gray-700 font-medium"
+                                    data-en="Ongoing Support" data-fa="پشتیبانی مستمر">Ongoing Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════
+         SECTION 8 — CONTACT
+    ════════════════════════════════════════════ -->
+        <section id="contact" class="py-24 px-4" aria-labelledby="contact-headline">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-16 reveal">
+                    <div class="flex items-center justify-center gap-3 mb-6" aria-hidden="true">
+                        <div class="h-px w-12 bg-gradient-to-r from-transparent to-purple-500"></div>
+                        <span class="text-xs font-semibold text-purple-400 uppercase tracking-widest"
+                            data-en="Get In Touch" data-fa="تماس بگیرید">Get In Touch</span>
+                        <div class="h-px w-12 bg-gradient-to-l from-transparent to-purple-500"></div>
+                    </div>
+                    <h2 id="contact-headline"
+                        class="text-4xl sm:text-5xl md:text-6xl font-black dark:text-white text-gray-900 mb-3"
+                        data-en="Let's Build Something" data-fa="بیایید چیزی بسازیم">Let's Build Something</h2>
+                    <p class="gradient-text text-4xl sm:text-5xl md:text-6xl font-black" data-en="Amazing Together."
+                        data-fa="شگفت‌انگیز با هم.">Amazing Together.</p>
+                </div>
+
+                <div class="grid lg:grid-cols-5 gap-8">
+                    <!-- Info -->
+                    <div class="lg:col-span-2 space-y-4 reveal">
+                        <div
+                            class="glass-card rounded-2xl p-5 border dark:border-white/5 border-gray-100 flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center flex-shrink-0"
+                                aria-hidden="true"><svg class="w-5 h-5 text-purple-400" fill="none"
+                                    stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg></div>
+                            <div>
+                                <div class="text-xs dark:text-gray-500 text-gray-500 mb-0.5" data-en="Email"
+                                    data-fa="ایمیل">Email</div><a href="mailto:mahdi.dev02@gmail.com"
+                                    class="text-sm font-medium dark:text-white text-gray-900 hover:text-purple-400 transition-colors">mahdi.dev02@gmail.com</a>
+                            </div>
+                        </div>
+                        <div
+                            class="glass-card rounded-2xl p-5 border dark:border-white/5 border-gray-100 flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                aria-hidden="true"><svg class="w-5 h-5 text-emerald-400" fill="currentColor"
+                                    viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                                </svg></div>
+                            <div>
+                                <div class="text-xs dark:text-gray-500 text-gray-500 mb-0.5" data-en="WhatsApp"
+                                    data-fa="واتساپ">WhatsApp</div><a href="https://wa.me/789591960"
+                                    class="text-sm font-medium dark:text-white text-gray-900 hover:text-green-400 transition-colors">+93
+                                    78-959-1960</a>
+                            </div>
+                        </div>
+                        <div
+                            class="glass-card rounded-2xl p-5 border dark:border-white/5 border-gray-100 flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-cyan-500/10 flex items-center justify-center flex-shrink-0"
+                                aria-hidden="true"><svg class="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg></div>
+                            <div>
+                                <div class="text-xs dark:text-gray-500 text-gray-500 mb-0.5" data-en="Response Time"
+                                    data-fa="زمان پاسخ">Response Time</div>
+                                <div class="text-sm font-medium dark:text-white text-gray-900" data-en="Within 24 hours"
+                                    data-fa="در عرض ۲۴ ساعت">Within 24 hours</div>
+                            </div>
+                        </div>
+                        <div
+                            class="glass-card rounded-2xl p-5 border dark:border-white/5 border-gray-100 flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-orange-500/10 flex items-center justify-center flex-shrink-0"
+                                aria-hidden="true"><svg class="w-5 h-5 text-orange-400" fill="none"
+                                    stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg></div>
+                            <div>
+                                <div class="text-xs dark:text-gray-500 text-gray-500 mb-0.5" data-en="Location"
+                                    data-fa="موقعیت">Location</div>
+                                <div class="text-sm font-medium dark:text-white text-gray-900"
+                                    data-en="Remote Worldwide" data-fa="دورکاری در سراسر جهان">Remote Worldwide</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Form -->
+                    <div class="lg:col-span-3 reveal">
+                        <form id="contactForm"
+                            class="glass-card rounded-3xl p-7 border dark:border-white/5 border-gray-100 space-y-5"
+                            aria-label="Contact form">
+                            <div class="grid sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="name"
+                                        class="block text-xs font-semibold dark:text-gray-400 text-gray-600 mb-2 uppercase tracking-wide"
+                                        data-en="Your Name" data-fa="نام شما">Your Name</label>
+                                    <input type="text" id="name" name="name" required autocomplete="name"
+                                        placeholder="John Doe"
+                                        class="w-full px-4 py-3.5 rounded-xl dark:bg-white/5 bg-gray-50 border dark:border-white/10 border-gray-200 dark:text-white text-gray-900 text-sm focus:outline-none focus:border-purple-500 transition-colors placeholder:dark:text-gray-600 placeholder:text-gray-400" />
+                                </div>
+                                <div>
+                                    <label for="email"
+                                        class="block text-xs font-semibold dark:text-gray-400 text-gray-600 mb-2 uppercase tracking-wide"
+                                        data-en="Email Address" data-fa="آدرس ایمیل">Email Address</label>
+                                    <input type="email" id="email" name="email" required autocomplete="email"
+                                        placeholder="john@example.com"
+                                        class="w-full px-4 py-3.5 rounded-xl dark:bg-white/5 bg-gray-50 border dark:border-white/10 border-gray-200 dark:text-white text-gray-900 text-sm focus:outline-none focus:border-purple-500 transition-colors placeholder:dark:text-gray-600 placeholder:text-gray-400" />
+                                </div>
+                            </div>
+                            <div>
+                                <label for="service"
+                                    class="block text-xs font-semibold dark:text-gray-400 text-gray-600 mb-2 uppercase tracking-wide"
+                                    data-en="Service Needed" data-fa="خدمت مورد نیاز">Service Needed</label>
+                                <select id="service" required name="subject"
+                                    class="w-full px-4 py-3.5 rounded-xl dark:bg-[#0d0d1a] bg-gray-50 border dark:border-white/10 border-gray-200 dark:text-white text-gray-900 text-sm focus:outline-none focus:border-purple-500 transition-colors">
+                                    <option value="" data-en="Select a service..." data-fa="یک خدمت انتخاب کنید...">
+                                        Select a service...</option>
+                                    <option value="restaurant" data-en="Restaurant Website" data-fa="وب‌سایت رستوران">
+                                        Restaurant Website</option>
+                                    <option value="cafe" data-en="Cafe Website" data-fa="وب‌سایت کافه">Cafe Website
+                                    </option>
+                                    <option value="product" data-en="Product Showcase" data-fa="ویترین محصول">Product
+                                        Showcase</option>
+                                    <option value="whatsapp" data-en="WhatsApp Ordering" data-fa="سفارش واتساپ">WhatsApp
+                                        Ordering</option>
+                                    <option value="other" data-en="Other" data-fa="سایر">Other</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message"
+                                    class="block text-xs font-semibold dark:text-gray-400 text-gray-600 mb-2 uppercase tracking-wide"
+                                    data-en="Project Details" data-fa="جزئیات پروژه">Project Details</label>
+                                <textarea id="message" required name="message" rows="4"
+                                    placeholder="Tell me about your project..."
+                                    class="w-full px-4 py-3.5 rounded-xl dark:bg-white/5 bg-gray-50 border dark:border-white/10 border-gray-200 dark:text-white text-gray-900 text-sm focus:outline-none focus:border-purple-500 transition-colors resize-none placeholder:dark:text-gray-600 placeholder:text-gray-400"></textarea>
+                            </div>
+                            <button type="submit" id="submitBtn"
+                                class="w-full py-4 rounded-2xl cta-gradient text-white font-bold text-sm hover:shadow-xl hover:shadow-purple-500/30 transition-all duration-300 hover:-translate-y-0.5 flex items-center justify-center gap-2 group"
+                                aria-label="Send message">
+                                <span id="submitText" data-en="Send Message" data-fa="ارسال پیام">Send Message</span>
+                                <svg id="submitArrow" class="w-4 h-4 group-hover:translate-x-1 transition-transform"
+                                    fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                                </svg>
+                                <svg id="submitSpinner" class="w-4 h-4 hidden animate-spin" fill="none"
+                                    stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                                </svg>
+                            </button>
+                        </form>
+                        <!-- Success -->
+                        <div id="successMessage"
+                            class="hidden mt-4 glass-card rounded-2xl p-4 border border-green-500/30 bg-green-500/5"
+                            role="alert">
+                            <div class="flex items-center gap-3">
+                                <div class="w-7 h-7 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0"
+                                    aria-hidden="true"><svg class="w-3.5 h-3.5 text-green-400" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg></div>
+                                <p class="text-sm text-green-400 font-medium"
+                                    data-en="Message sent! I'll get back to you within 24 hours."
+                                    data-fa="پیام ارسال شد! در عرض ۲۴ ساعت با شما تماس می‌گیرم.">Message sent! I'll get
+                                    back to you within 24 hours.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ═══════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════ -->
+    <footer class="border-t dark:border-white/5 border-gray-100 py-12 px-4" role="contentinfo">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
+                <div class="lg:col-span-2">
+                    <a href="#top" class="flex items-center gap-3 mb-4" aria-label="SajadiStudio - Back to top">
+                        <div class="w-9 h-9 rounded-xl logo-gradient flex items-center justify-center"
+                            aria-hidden="true"><span class="text-white font-black text-sm">S</span></div>
+                        <span class="font-bold text-lg dark:text-white text-gray-900" data-en="SajadiStudio"
+                            data-fa="سجادی استودیو">Sajadi Studio</span>
+                    </a>
+                    <p class="text-sm dark:text-gray-500 text-gray-500 leading-relaxed max-w-xs mb-5"
+                        data-en="Building premium web experiences for restaurants, cafes, and businesses worldwide."
+                        data-fa="ساخت تجربه‌های وب پریمیوم برای رستوران‌ها، کافه‌ها و کسب‌وکارها در سراسر جهان.">
+                        Building premium web experiences for restaurants, cafes, and businesses worldwide.</p>
+                    <div class="flex items-center gap-2.5">
+                        <a href="https://github.com/sajadi-dev"
+                            class="w-9 h-9 rounded-xl dark:bg-white/5 bg-gray-100 flex items-center justify-center hover:bg-purple-500/20 transition-colors border dark:border-white/5 border-gray-200"
+                            aria-label="GitHub"><svg class="w-4 h-4 dark:text-gray-400 text-gray-600"
+                                fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                            </svg></a>
+                        <a href="https://t.me/Sajadi33i"
+                            class="w-9 h-9 rounded-xl dark:bg-white/5 bg-gray-100 flex items-center justify-center hover:bg-purple-500/20 transition-colors border dark:border-white/5 border-gray-200"
+                            aria-label="telegram">
+                            <svg class="w-4 h-4 dark:text-gray-400 text-gray-600" fill="currentColor"
+                                viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M21.944 2.506a1.5 1.5 0 00-1.612-.243L2.82 9.28a1.5 1.5 0 00.1 2.82l4.53 1.51 1.51 4.53a1.5 1.5 0 002.82.1l7.017-17.512a1.5 1.5 0 00-.853-2.222zM9.3 12.96l8.87-7.25-6.92 8.87a.9.9 0 00-.18.39l-.59 2.68-1.18-3.53z" />
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com/sayedmahdi1032"
+                            class="w-9 h-9 rounded-xl dark:bg-white/5 bg-gray-100 flex items-center justify-center hover:bg-purple-500/20 transition-colors border dark:border-white/5 border-gray-200"
+                            aria-label="instagram"><svg class="w-4 h-4 dark:text-gray-400 text-gray-600"
+                                fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5zm0 1.8h8.5a3.95 3.95 0 013.95 3.95v8.5a3.95 3.95 0 01-3.95 3.95h-8.5a3.95 3.95 0 01-3.95-3.95v-8.5A3.95 3.95 0 017.75 3.8zm8.95 1.35a1.05 1.05 0 100 2.1 1.05 1.05 0 000-2.1zM12 7a5 5 0 100 10 5 5 0 000-10zm0 1.8A3.2 3.2 0 1112 15.2 3.2 3.2 0 0112 8.8z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold dark:text-white text-gray-900 mb-4 text-sm" data-en="Services"
+                        data-fa="خدمات">Services</h4>
+                    <ul class="space-y-2.5" role="list">
+                        <li><a href="#services"
+                                class="text-sm dark:text-gray-500 text-gray-500 hover:text-purple-400 transition-colors"
+                                data-en="Restaurant Websites" data-fa="وب‌سایت رستوران">Restaurant Websites</a></li>
+                        <li><a href="#services"
+                                class="text-sm dark:text-gray-500 text-gray-500 hover:text-purple-400 transition-colors"
+                                data-en="Cafe Websites" data-fa="وب‌سایت کافه">Cafe Websites</a></li>
+                        <li><a href="#services"
+                                class="text-sm dark:text-gray-500 text-gray-500 hover:text-purple-400 transition-colors"
+                                data-en="Product Showcase" data-fa="ویترین محصول">Product Showcase</a></li>
+                        <li><a href="#services"
+                                class="text-sm dark:text-gray-500 text-gray-500 hover:text-purple-400 transition-colors"
+                                data-en="WhatsApp Ordering" data-fa="سفارش واتساپ">WhatsApp Ordering</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold dark:text-white text-gray-900 mb-4 text-sm" data-en="Quick Links"
+                        data-fa="لینک‌های سریع">Quick Links</h4>
+                    <ul class="space-y-2.5" role="list">
+                        <li><a href="#projects"
+                                class="text-sm dark:text-gray-500 text-gray-500 hover:text-purple-400 transition-colors"
+                                data-en="Projects" data-fa="پروژه‌ها">Projects</a></li>
+                        <li><a href="#pricing"
+                                class="text-sm dark:text-gray-500 text-gray-500 hover:text-purple-400 transition-colors"
+                                data-en="Pricing" data-fa="قیمت‌ها">Pricing</a></li>
+                        <li><a href="#about"
+                                class="text-sm dark:text-gray-500 text-gray-500 hover:text-purple-400 transition-colors"
+                                data-en="About" data-fa="درباره">About</a></li>
+                        <li><a href="#contact"
+                                class="text-sm dark:text-gray-500 text-gray-500 hover:text-purple-400 transition-colors"
+                                data-en="Contact" data-fa="تماس">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="pt-8 border-t dark:border-white/5 border-gray-100 flex flex-col sm:flex-row items-center justify-between gap-3">
+                <p class="text-xs dark:text-gray-600 text-gray-400" data-en="© 2025 Sajadi Studio. All rights reserved."
+                    data-fa="© ۲۰۲۵ سجادی استودیو. تمامی حقوق محفوظ است.">© 2025 Sajadi Studio. All rights reserved.</p>
+                <p class="text-xs dark:text-gray-600 text-gray-400">
+                    <span data-en="Designed & Built with" data-fa="طراحی و ساخته شده با">Designed & Built with</span>
+                    <span class="text-red-400 mx-1" aria-hidden="true">♥</span>
+                    <span data-en="by SajadiStudio" data-fa="توسط سجادی استودیو">by Sajadi Studio</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script>
+        emailjs.init({
+            publicKey: "DRp76qPZ5x8pYqHgj",
+        });
+    </script>
+</body>
+
+</html
